@@ -88,7 +88,37 @@ Blog-section
 
 
      -----------------------------*/
-     
+    .sesh{
+        display: flex;
+    }
+    .full{
+        margin-right: 50px;
+        width: 34%;
+    }
+.thumbnaile img{
+         height: 117px;
+         width: 220px;
+         margin-bottom: 20px;
+}
+.last{
+        display: flex;
+        flex-diretion: column;
+        margin-top: 10px;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.rating{
+    margin-left: 0px;
+}
+.clock{
+    font-size: 17px;
+    margin-left: 20px;
+    border:px  solid ;
+    border-radius: 9px;
+    border-image: rgba(0, 0, 0, 0.05);
+}
+
 
 
 
