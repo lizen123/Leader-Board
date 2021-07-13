@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: #f3f1ff;
+}
+
+/* -------------------
+players 
+----------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+.title{
+    font-size: 30px;
+    color: yellowgreen
+}
+.player img{
+    height: 60px;
+}
+.any{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 40px;
+}
+.player{
+    display: flex;
+}
+h4{
+    margin-left: 10px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 70px;
+}
+/*----------------------- 
+
+Blog-section
+
+------------------------*/
+
+
+
+    .top-blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+        margin-top: 50px;
+    }
+    .blog{
+        display: flex;
+    }
+    .thumbnail img{
+        width: 177px;
+        height: 117px;
+    }
+    .info{
+        margin-left: 30px;
+    }
+    .author{
+        text-decoration: none;
+        color: springgreen;
+    }
+    p{
+        color: slategray;
+    }
+    /*---------------------------
+
+
+
+
+
+     courses 
+
+
+
+
+     -----------------------------*/
+     
+
+
+
